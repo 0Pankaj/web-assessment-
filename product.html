@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        nav {
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product-title {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #333;
+        }
+        .product-price {
+            font-size: 1.1em;
+            color: #666;
+        }
+        .buy-now-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ffcc66;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .buy-now-button:hover {
+            background-color:black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Our Products</h1>
+    </nav>
+
+    <div class="product-container">
+        <div class="product-card">
+            <img src="https://image.freepik.com/free-photo/hand-is-giving-ice-cream-red-cone-young-woman-selling-ice-cream-outdoors-buying-ice-cream-park_270941-34.jpg" alt="Vanilla Ice Cream" class="product-image">
+            <div class="product-title">Vanilla Delight</div>
+            <a href="#" class="buy-now-button">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://www.thespruceeats.com/thmb/BYOHKcXhja-ez7Fr9obgBrDHJ1Y=/3064x2042/filters:fill(auto,1)/easy-chocolate-ice-cream-recipe-1945798-hero-01-45d9f26a0aaf4c1dba38d7e0a2ab51e2.jpg" alt="Chocolate Ice Cream" class="product-image">
+            <div class="product-title">Chocolate Bliss</div>
+            <a href="#" class="buy-now-button">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://th.bing.com/th/id/R.f23b881a3a5933172f24b09e47313740?rik=7wrThBAPDJAtjg&riu=http%3a%2f%2fvictoriabuzz.com%2fwp-content%2fuploads%2f2017%2f02%2f04-traits-ice-cream-chocolate.jpg&ehk=EhX%2f3keiL1rTIAEBWiGnsJ9DmoWIsKCkJXWnk8FQCKM%3d&risl=&pid=ImgRaw&r=0" alt="Strawberry Ice Cream" class="product-image">
+            <div class="product-title">Strawberry Swirl</div>
+            <a href="#" class="buy-now-button">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://wallpapercrafter.com/desktop3/1109847-raspberries-plate-spoon-dessert-ice-Cream-frozen.jpg" alt="Mint Ice Cream" class="product-image">
+            <div class="product-title">Mint Magic</div>
+            <a href="#" class="buy-now-button">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>

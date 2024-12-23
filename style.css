@@ -1,0 +1,106 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+    /* font-family: 'Arial', sans-serif; */
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #19528a;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.icon a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #19528a;
+    height: 80vh;
+}
+
+
+
+.hero-text h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buy-btn {
+    background-color: #182a48;
+    color: white;
+}
+
+.buy-btn:hover{
+    background-color : #11264d ;
+}
+
+.find-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.hero-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
